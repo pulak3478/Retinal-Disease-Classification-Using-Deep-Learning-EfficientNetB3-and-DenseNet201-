@@ -1,4 +1,4 @@
-# Retinal-Disease-Classification-Using-Deep-Learning-EfficientNetB3-and-DenseNet201-
+# Retinal-Disease Classification Using Deep Learning EfficientNetB3 and DenseNet201
 This repository contains the code and resources for a deep learning project focused on the multiclass classification of retinal diseases using convolutional neural networks (CNNs). The primary objective of this project is to accurately identify four types of retinal conditions: Diabetic Retinopathy, Cataract, Glaucoma, and Normal retina. By leveraging the EfficientNetB3 and DenseNet201 models, this project aims to assist in the early detection and diagnosis of retinal diseases, which is crucial for effective treatment and preventing vision loss.
 
 # Project Highlights
