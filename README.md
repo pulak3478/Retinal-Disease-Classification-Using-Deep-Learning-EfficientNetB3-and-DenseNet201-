@@ -21,5 +21,8 @@ The EfficientNetB3 model showed a slight edge in performance due to its compound
 - **/results**: Contains saved metrics, plots, and model performance summaries.
 
 ## Requirements
--Python 3.8+
--TensorFlow, Keras, OpenCV, NumPy, Pandas, Matplotlib
+- Python 3.8+
+- TensorFlow, Keras, OpenCV, NumPy, Pandas, Matplotlib
+
+## DataSet:
+- Retinal Disease Classification: https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification
