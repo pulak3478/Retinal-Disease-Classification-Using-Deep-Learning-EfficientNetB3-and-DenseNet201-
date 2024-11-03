@@ -1,10 +1,10 @@
 # Retinal-Disease Classification Using Deep Learning EfficientNetB3 and DenseNet201
 This repository contains the code and resources for a deep learning project focused on the multiclass classification of retinal diseases using convolutional neural networks (CNNs). The primary objective of this project is to accurately identify four types of retinal conditions: Diabetic Retinopathy, Cataract, Glaucoma, and Normal retina. By leveraging the EfficientNetB3 and DenseNet201 models, this project aims to assist in the early detection and diagnosis of retinal diseases, which is crucial for effective treatment and preventing vision loss.
 
-# Project Highlights
--**Dataset**: A comprehensive dataset of approximately 4000 retinal images, with around 1000 images per class, sourced from public datasets including IDRiD, Ocular Recognition, and HRF.
--**Preprocessing**: Images were resized to 224x224 pixels and normalized for optimal feature extraction. Data augmentation techniques were deliberately excluded to evaluate the baseline performance of the models.
-*Models Used:
+## Project Highlights
+- **Dataset**: A comprehensive dataset of approximately 4000 retinal images, with around 1000 images per class, sourced from public datasets including IDRiD, Ocular Recognition, and HRF.
+- **Preprocessing**: Images were resized to 224x224 pixels and normalized for optimal feature extraction. Data augmentation techniques were deliberately excluded to evaluate the baseline performance of the models.
+- **Models Used**:
 EfficientNetB3: Known for its efficient scaling, achieving a validation accuracy of 92.89%.
 *DenseNet201: Achieved a validation accuracy of 92.42%, providing comparable results with a slightly different architectural approach.
 *Training Details: Both models were fine-tuned with pre-trained ImageNet weights. The models were trained with the Adamax optimizer, a learning rate of 0.001, for 10 epochs, using an 80:10:10 train-validation-test split.
